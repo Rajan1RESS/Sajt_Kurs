@@ -1,0 +1,31 @@
+.product-promotion {
+    background-color: white;
+}
+
+
+.product-promotion .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-promotion .first-image {
+    position: relative;
+    margin-top: 2em;
+    left: 4em;
+    width: 25em;
+}
+
+.product-promotion .second-image{
+    position: absolute;
+    width: 25em;
+    margin-top: 7em;
+    left: 2em;   
+}
+
+.text {
+    font-size: 18px;
+}
+
+.product-promotion .right-side{
+    text-align: center;
+}
