@@ -1,5 +1,15 @@
 .service{
-    background-color: white;
+    background-color: #FBFCFD;
+    text-align: center;
+}
+
+.service .text {
+    font-size: 18px;
+}
+
+.service h4 {
+    padding: 2em;
+    padding-bottom: 0;
 }
 
 .service .container{
@@ -13,4 +23,36 @@
 .container .card_item{
     padding: 15px 25px;
     width: 33%;
+}
+
+.container .card-inner{
+    background: #FFFFFF;
+    text-align: center;
+    padding: 35px 20px;
+    min-width: 225px;
+    min-height: 315px;
+    width: 100%;
+}
+
+.container .card-inner img{
+    width: 101px;
+    height: 101px;
+    margin-bottom: 30px;
+}
+
+.container .card-inner .name{
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .container .card_item{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .container .card_item{
+        width: 100%;
+    }
 }
