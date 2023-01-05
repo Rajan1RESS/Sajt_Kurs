@@ -1,0 +1,46 @@
+.header {
+    text-align: center;
+    margin-bottom: 15em;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+}
+
+.right-side .first-image {
+    position: relative;
+    margin-top: 3em;
+    width: 25em;
+}
+
+.right-side .second-image {
+    position: absolute;
+    margin-top: 3em;
+    left: 3em;
+    top: 16em;
+    width: 25em; 
+}
+
+.right-side .third-image{
+    position: absolute;
+    margin-top: 3em;
+    left: 13em;
+    top: 19em;
+}
+
+.right-side .fourth-image{
+    position: absolute;
+    margin-top: 3em;
+    left: 13.7em;
+    top: 19.6em;
+}
+
+.right-side .fifth-image{
+    position: absolute;
+    margin-top: 3em;
+    left: 15.6em;
+    top: 21em;
+}
