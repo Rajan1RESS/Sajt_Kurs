@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    /* mozda maci margin kasnije */
+    padding: 0;
     box-sizing: border-box;
 }
 
