@@ -1,0 +1,25 @@
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.footer .container .card-f{
+    padding: 5px 5px;
+    min-width: 200px;
+    /* max-width: 300px; */
+    width: 100%;
+}
+
+.footer .container .card-f a {
+    color: var(--primary-light-blue);
+}
+
+.icons img{
+    margin-right: 15px;
+}
+
+.space{
+    margin-right: 10px;
+}

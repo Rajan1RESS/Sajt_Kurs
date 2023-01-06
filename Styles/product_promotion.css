@@ -1,25 +1,28 @@
 .product-promotion {
     background-color: white;
+    margin-bottom: 30px;
 }
 
 
 .product-promotion .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.product-promotion .first-image {
-    position: relative;
-    margin-top: 2em;
-    left: 4em;
-    width: 25em;
+#pp-image1{
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
 }
 
-.product-promotion .second-image{
-    position: absolute;
-    width: 25em;
-    margin-top: 7em;
-    left: 2em;   
+.product-promotion .container .last-row{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .text {
