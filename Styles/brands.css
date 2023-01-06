@@ -1,0 +1,14 @@
+.brands .container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.brands .container img{
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
