@@ -1,6 +1,8 @@
 .service{
     background-color: #FBFCFD;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .service .text {

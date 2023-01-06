@@ -1,6 +1,8 @@
 .top-pick {
     background-color: #F8F8F8;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .tp-container{

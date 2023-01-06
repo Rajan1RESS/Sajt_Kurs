@@ -1,6 +1,4 @@
 *{
-    /* margin: 0; */
-    /* mozda maci margin kasnije */
     padding: 0;
     box-sizing: border-box;
 }
@@ -18,8 +16,6 @@
 body{
     background-color: #F8F8F8;
     margin: 0;
-    /* margin-left: 2em; */
-    /* padding: 0em 2em; */
     font-family: 'Lato', sans-serif;
     color: var(--text-color);
 }
