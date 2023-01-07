@@ -29,6 +29,11 @@
     margin-right: 10px;
 }
 
+.ab-tech{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
 
 @media screen and (min-width: 1024px) {
     .footer .container{

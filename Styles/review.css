@@ -11,6 +11,21 @@
     text-align: center;
 }
 
+.review .container .arrows-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.review .container .arrows-container .arrow{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    width: 10%;
+}
+
+
+
 .review .container #customer-review{
     margin-top: 2em;
     padding: 5px 20px;
@@ -19,6 +34,12 @@
     max-width: 500px;
     width: 100%;
     background-color: white;
+}
+
+
+
+.job{
+    color: var(--primary-light-blue);
 }
 
 #pic3 {
@@ -32,6 +53,10 @@
 
 @media  screen and (max-width:760px) {
     .profile-pics #pic1,#pic2,#pic4,#pic5{
+        display: none;
+    }
+
+    .review .container .arrows-container .arrow{
         display: none;
     }
 }
