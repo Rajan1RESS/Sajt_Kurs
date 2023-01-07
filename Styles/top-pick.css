@@ -41,3 +41,37 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .top-pick .tp-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 100%;
+    }
+  
+    .top-pick .tp-container .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* margin: auto; */
+        right: 0;
+        width: 60%;
+    }
+
+    .top-pick .tp-container .menu-container{
+        /* margin: auto; */
+        text-align: left;
+        top: 0;
+    }
+
+    .top-pick .menu li{
+        padding: 1.4em 0em;
+    }
+
+    .top-pick .menu li a{
+        color: var(--text-color);
+    }
+    
+}

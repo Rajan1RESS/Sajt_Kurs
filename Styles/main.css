@@ -16,20 +16,27 @@
 body{
     background-color: #F8F8F8;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--text-color);
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
 }
 
 h2{
     font-size: 40px;
+    font-family: 'Lato', sans-serif;
 }
 
 h3{
-    font-size: 22px;;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
 }
 
 h4{
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 a{

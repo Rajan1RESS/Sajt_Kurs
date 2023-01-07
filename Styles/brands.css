@@ -1,13 +1,12 @@
 .brands{
     padding-left: 10%;
     padding-right: 10%;
+    background-color: white;
 }
 
 .brands .container{
-    background-color: white;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -15,5 +14,15 @@
     width: 100%;
     max-width: 150px;
     height: 150px;
-    margin-bottom: 30px;
 }
+
+@media screen and (min-width: 1024px){
+    .brands .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+}
+
