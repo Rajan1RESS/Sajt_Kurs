@@ -45,7 +45,11 @@
     color: var(--primary-light-blue);
 }
 
-#first-service-card p,h3{
+#first-service-card p{
+    color: white;
+}
+
+#first-service-card h3{
     color: white;
 }
 
