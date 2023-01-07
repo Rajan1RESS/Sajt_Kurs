@@ -42,3 +42,24 @@ h4{
 a{
     text-decoration: none;
 }
+
+.button-shape{
+    background-color: var(--primary-blue);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 18px;
+    font-size: 15px;
+}
+
+#gradiant {
+    background-image: linear-gradient(to right,var(--primary-blue),#a5a2f6);
+}
+
+#blue {
+    color: var(--primary-blue);
+}

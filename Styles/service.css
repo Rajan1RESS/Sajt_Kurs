@@ -31,9 +31,22 @@
     background: #FFFFFF;
     text-align: center;
     padding: 35px 20px;
-    min-width: 190px;
+    min-width: 210px;
     min-height: 315px;
     width: 100%;
+}
+
+#first-service-card{
+    background-image: linear-gradient(to right,var(--primary-blue),#a5a2f6);
+} 
+
+#first-service-card button{
+    background-color: white;
+    color: var(--primary-light-blue);
+}
+
+#first-service-card p,h3{
+    color: white;
 }
 
 .container .card-inner img{
@@ -57,6 +70,6 @@
        
     .service .container .card_item{
         width: 100%;
-        padding: 0px 0px;
+        padding: 10px 0px;
     }
 }

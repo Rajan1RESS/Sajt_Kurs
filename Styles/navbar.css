@@ -99,6 +99,14 @@ nav ul.primary-nav{
         display: flex;
     }
 
+    .navbar .secondary-nav li {
+       padding: 0px 10px;
+    }
+    
+    .navbar .secondary-nav img{
+        width: 70%;
+    }
+
     .navbar nav ul {
         display: flex;
     }

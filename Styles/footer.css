@@ -46,6 +46,7 @@
     
 
     .footer .container .card-f li {
-        padding-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
