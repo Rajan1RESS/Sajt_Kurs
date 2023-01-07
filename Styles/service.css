@@ -31,7 +31,7 @@
     background: #FFFFFF;
     text-align: center;
     padding: 35px 20px;
-    min-width: 225px;
+    min-width: 190px;
     min-height: 315px;
     width: 100%;
 }
@@ -54,7 +54,9 @@
 }
 
 @media screen and (max-width: 568px){
+       
     .service .container .card_item{
         width: 100%;
+        padding: 0px 0px;
     }
 }

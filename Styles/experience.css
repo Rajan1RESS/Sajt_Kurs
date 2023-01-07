@@ -40,3 +40,14 @@
     }
 }
 
+@media screen and (max-width: 568px){
+    .experience .container .card-inner {
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+        min-height: 180px;
+        width: 100%;
+        background: #FFFFFF;
+        align-items: center;
+    }      
+}

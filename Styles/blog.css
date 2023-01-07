@@ -20,7 +20,6 @@
 .blog-post .container .cards-container .card-item-b{
     padding: 15px 5px;
     width: 50%;
-    /* margin: 0; */
 }
 
 .blog-post .container .cards-container .card-inner-b {
@@ -50,7 +49,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1175px){
     .blog-post .container {
         display: flex;
         flex-direction: row;
@@ -68,7 +67,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin: auto;
-        width: 60%;
+        width: 65%;
     }
 
     #first{
@@ -81,7 +80,7 @@
     }
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1175px) {
 
     .blog-post .container{
        align-items: center;
