@@ -18,12 +18,13 @@
     <link rel="stylesheet" href="Styles/custome-section.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Domaci_2</title>
 </head>
 <body>
     <div class="navbar">
         <div class="container">
-            <a class="logo" href="#"><img src="Images/AbTech.png" alt="logo"></a>
+            <a class="logo" href=""><img src="Images/AbTech.png" alt="logo"></a>
             
             <img id="mobile-cta" class="mobile-menu" src="Images/menu.svg" alt="Open Navigation">
 
@@ -31,12 +32,12 @@
                 <img id="mobile-exit" class="mobile-menu-exit"  src="Images/exit.svg" alt="Close Navigation">
 
                 <ul class="primary-nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PRODUCT</a></li>
-                    <li><a href="#">PRINTERS</a></li>
-                    <li><a href="#">REVIEW</a></li>
-                    <li><a href="#">EXPERIENCE</a></li>
-                    <li><a href="#">SUPPORT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#product">PRODUCT</a></li>
+                    <li><a href="#product">PRINTERS</a></li>
+                    <li><a href="#review">REVIEW</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="Contact-us/custom.html">SUPPORT</a></li>
                 </ul>
                 <ul class="secondary-nav">
                     <li><a href="#">LOG IN</a></li>
@@ -46,20 +47,20 @@
             </nav>
         </div>
     </div>
-    <div class="header">
+    <div class="header" id="home">
         <div class="container">
             <div class="left-side">
                 <p>Logitech®</p>
                 <h1>WIRELESS COMBO MK220</h1>
                 <p>Full features in a compact size</p>
-                <button class="button-shape gradiant">VIEW MORE</button>
+                <button class="animate__animated animate__fadeInLeft button-shape gradiant">VIEW MORE</button>
             </div>
             <div class="right-side">
-                <img src="Images/Header-Keyboard/full-kb.png" alt="keyboard">    
+                <img class="animate__animated animate__tada" src="Images/Header-Keyboard/full-kb.png" alt="keyboard">    
             </div>
         </div>
     </div>
-    <div class="service">
+    <div class="service" id="product">
         <h4 class="blue">OUR SERVICES</h4>
         <h2>We Provide Best Quality Service</h2>
         <p class="text">The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta and Goutam Saha, Managing Director of Excel Technologies Ltd</p>
@@ -130,7 +131,7 @@
             </div>
         </div>
     </div>
-    <div class="experience">
+    <div class="experience" id="experience">
         <h2><span class="blue">Experience</span> Modern, Elegant technology to ease your life.</h2>
         <div class="container">
             <div class="card_item">
@@ -301,7 +302,7 @@
             </div>
         </div>
     </div>
-    <div class="review">
+    <div class="review" id="review">
         <div class="container">
             <h2><span class="blue">Our</span> customers review</h2>
             <p>Customer Review Sites for Collecting Business & Product Reviews</p>
@@ -332,7 +333,7 @@
             <form action="Contact-us/custom.html">
                 <input type="submit" class="button-shape" value="Contact us">
             </form>
-            <form action="https://google.com">
+            <form action="About-me/about-me.html">
                 <input type="submit" class="button-shape" value="About me">
             </form>
         </div>
