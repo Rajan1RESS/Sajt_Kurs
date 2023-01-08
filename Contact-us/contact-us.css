@@ -1,0 +1,73 @@
+html,body {
+    height: 100%;
+}
+
+.contact-us{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact-us .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us .left-side{
+    max-width: 40%;
+}
+
+.contact-us .right-side{
+    margin: auto;
+}
+
+.contact-us input{
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+
+.contact-us label{
+    display: block;
+    padding-top: 10px;
+}
+
+
+.contact-us textarea{
+    columns: 10;
+    min-width: 100px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#submit{
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:760px){
+    .contact-us .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us .left-side{
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    #submit{
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contact-us{
+        height: 65%;
+    }
+}
+
