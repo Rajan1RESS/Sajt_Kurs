@@ -35,17 +35,17 @@
     width: 100%;
 }
 
-#small-text-container{
+.small-text-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#blog-card-text{
+.blog-card-text{
     padding: 5px 10px;
 }
 
-#line {
+.line {
     width: 100%;
 }
 

@@ -58,12 +58,12 @@ a{
     color: white;
 }
 
-#gradiant {
+.gradiant {
     background-image: linear-gradient(to right,var(--primary-blue),#a5a2f6);
     border: none;
     color: white;
 }
 
-#blue {
+.blue {
     color: var(--primary-blue);
 }

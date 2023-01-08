@@ -6,11 +6,18 @@
     background-color: #FBFCFD;
 }
 
-
-
 .custom-section .container .button-shape{
     padding: 22px 50px;
     border-radius: 30px;
+}
+
+
+.custom-section .container .button-shape .text-c {
+    color: var(--primary-light-blue);
+}
+
+.custom-section .container .button-shape .text-c:hover {
+    color: white;
 }
 
 @media screen and (max-width: 1024px) {
